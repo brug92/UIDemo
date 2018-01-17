@@ -8,7 +8,7 @@ import { HttpClient,HttpHeaders } from '@angular/common/http';
 })
 export class AppComponent implements OnInit {
   title = 'app';
-  results = '';
+  results = 'results';
   constructor(private http: HttpClient){
   }
   ngOnInit(): void {
