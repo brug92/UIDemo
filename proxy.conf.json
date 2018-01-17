@@ -1,0 +1,11 @@
+{
+    "/api": {
+        "target": {
+            "host": "quickstats.nass.usda.gov",
+            "protocol": "https:"
+        },
+        "secure": false,
+        "changeOrigin": true,
+        "logLevel": "debug"
+    }
+}
